@@ -11,7 +11,7 @@ redirect_from:
 Thank you for visiting my personal webpage.
 
 
-I am currently a Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), one of the flagship interdisciplinary research institutes at [A*STAR]({% https://www.a-star.edu.sg/ %}), a leading science, tech and research organisation in Singapore. My work here primarily draws on three research directions:
+I am currently a Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), one of the flagship interdisciplinary research institutes at [A*STAR]({https://www.a-star.edu.sg/}), a leading science, tech and research organisation in Singapore. My work here primarily draws on three research directions:
 
 i. Analyzing online user behavior on large social networks using fine-grained observational data, and understanding the interplay between network and user behavior in a variety of sectors spanning finance, healthcare, education and urban systems. 
 ii. Building and validating computational models of human emotions on digital platforms, and exploring novel social and business applications of large-scale and fine-grained emotion data e.g. empathetic chatbots. 
