@@ -1,0 +1,13 @@
+---
+title: "Online Search | Information Seeking"
+excerpt: "Short description of portfolio item number 2 <br/><img src='/images/500x300.png'>"
+collection: portfolio
+---
+
+Through this set of projects we try to analyze large scale data on anonymized search logs understand how users search for information online to accomplish specific tasks. Re-visiting online search through the lens of search tasks lets search engines perform better personalization, ad targeting and task-aware ranking of search results.
+
+Relevant projects/papers:
+1. Deconstructing Complex Search Tasks: A Bayesian Nonparametric Approach for Extracting Sub-tasks, with Rishabh Mehrotra and Emine Yilmaz
+2. Sessions, Tasks & Topics - Uncovering Behavioral Heterogeneities in Online Search Behavior, with Rishabh Mehrotra and Emine Yilmaz
+3. The Information Network: Exploiting Causal Dependencies in Online Information Seeking, with Rishabh Mehrotra
+4. Characterizing Users’ Multi-Tasking Behavior in Web Search, with Rishabh Mehrotra and Emine Yilmaz
