@@ -1,6 +1,6 @@
 ---
 title: "Social Media Analytics | Social Networks and Digital Marketing"
-excerpt: "Causal inference and predictive modeling of online behavior on social media platforms<br/><img src='/images/social_media_roi.png'><br/>(Image Source: https://www.brandwatch.com/blog/10-ways-to-prove-the-value-roi-of-social-media-monitoring/)"
+excerpt: "Causal inference and predictive modeling of online behavior on social media platforms<br/><img src='/images/social_media_roi.png'><br/><sup><sub>(Image Source: https://www.brandwatch.com/blog/10-ways-to-prove-the-value-roi-of-social-media-monitoring/)</sup></sub>"
 collection: portfolio
 ---
 
