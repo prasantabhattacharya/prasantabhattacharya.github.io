@@ -1,6 +1,6 @@
 ---
 title: "Social Media Analytics | Social Networks and Digital Marketing"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Causal inference and predictive modeling of online behavior on social media platforms 1<br/><img src='/images/social_media_ROI.png'>"
 collection: portfolio
 ---
 
