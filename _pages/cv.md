@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Request a copy of my latest CV [_here_](prasanta.nus@gmail.com).
+Request a copy of my latest CV [_here_](mailto:prasanta.nus@gmail.com).
