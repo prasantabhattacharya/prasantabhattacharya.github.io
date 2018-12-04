@@ -5,22 +5,22 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Forthcoming papers:
+### Forthcoming papers:
 1. Bhattacharya, P., Phan, T.Q., Bai, X., and Airoldi, E. (2018). Analyzing the Co-evolution of Network Structure and Content Generation in Online Social Networks.(Journal: Information Systems Research (ISR))
 
-## Working papers:
+### Working papers:
 2. Bhattacharya, P., Mehrotra, R., Tan, T., and Phan, T.Q. (2018). Predicting Loan Defaults in Micronance using Behavioral Sequences. (Target Journal: Management Science)
 3. Phan, T.Q., Bhattacharya, P., and Airoldi, E. (2018). Investigating the Impact of New Privacy Controls by Social Network Sites on Users' Content Generation Behavior. (Target Journal: Proceedings of the National Academy of Sciences of the United States of America (PNAS))
 4. Bhattacharya, P., Phan, T.Q., and Goh, K.Y. (2017). The Profitability of Social Media Brand-Pages: Investigating the Effects of Customer Behavior at Online Social Network Sites on Offline Purchase. 
 5. Dan, D., Bhattacharya, P., Phan, T.Q., and Lu, X. (2018). The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. (Target Journal: Journal of Marketing Research, Special Issue on Education and Marketing)
 6. Tan, T., Bhattacharya, P., and Phan, T.Q. (2018). Predicting Micro-loan Default Behavior using Mobile Data: A Spatio-Network Approach.(Target Journal:Management Science)
 
-## Papers in-preparation:
+### Papers in-preparation:
 7. Bhattacharya, P., Tan, T., and Phan, T.Q. Assessing Peer-effects from Egocentric Borrower Networks: Evidence from an Emerging Micro-lending Community.
 8. Bhattacharya, P., and Mehrotra, R. Exploiting Causal Dependencies in Online Information Seeking. 
 9. Mehrotra, R., Bhattacharya, P., Yilmaz, E. Extracting Web Search Tasks via Embedding based Nonparametric Priors.
 
-## Recent Conference Publications:
+### Recent Conference Publications:
 10. Ding, D., Phan, T.Q., Bhattacharya, P., and Lu, X. (2018). The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. In Proc. of 39th International Conference on Information Systems (ICIS 2018), San Francisco (USA). (forthcoming)
 11. Bhattacharya, P., Tan, T., and Phan, T.Q. (2018). Assessing Peer-effects from Egocentric Borrower Networks: Evidence from an Emerging Micro-lending Community.In 14th Symposium on Statistical Challenges in e-Commerce Research (SCECR 2018), Rotterdam.
 12. Ding, D., Phan, T.Q., Bhattacharya, P., and Lu, X. (2018) The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. In 14th Symposium on Statistical Challenges in e-Commerce Research (SCECR 2018), Rotterdam.
