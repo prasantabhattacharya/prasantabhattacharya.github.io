@@ -9,7 +9,7 @@ author_profile: true
 1. Bhattacharya, P., Phan, T.Q., Bai, X., and Airoldi, E. (2018). Analyzing the Co-evolution of Network Structure and Content Generation in Online Social Networks.(Journal: Information Systems Research (ISR))
 
 ### Working papers:
-2. Bhattacharya, P., Mehrotra, R., Tan, T., and Phan, T.Q. (2018). Predicting Loan Defaults in Micronance using Behavioral Sequences. (Target Journal: Management Science)
+2. Bhattacharya, P., Mehrotra, R., Tan, T., and Phan, T.Q. (2018). Predicting Loan Defaults in Microfinance using Behavioral Sequences. (Target Journal: Management Science)
 3. Phan, T.Q., Bhattacharya, P., and Airoldi, E. (2018). Investigating the Impact of New Privacy Controls by Social Network Sites on Users' Content Generation Behavior. (Target Journal: Proceedings of the National Academy of Sciences of the United States of America (PNAS))
 4. Bhattacharya, P., Phan, T.Q., and Goh, K.Y. (2017). The Profitability of Social Media Brand-Pages: Investigating the Effects of Customer Behavior at Online Social Network Sites on Offline Purchase. 
 5. Dan, D., Bhattacharya, P., Phan, T.Q., and Lu, X. (2018). The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. (Target Journal: Journal of Marketing Research, Special Issue on Education and Marketing)
