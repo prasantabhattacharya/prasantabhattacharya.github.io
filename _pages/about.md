@@ -25,3 +25,5 @@ I have over 6 years of academic and industry experience in solving complex socia
 
 Think there's something we can chat about? Drop me an [e-mail](mailto:prasanta.nus@gmail.com). 
 
+_UPDATE_: As of Jan 2019, I will be joining the Dept. of Analytics and Operations (NUS Business School) as an Adjunct Assistant Professor to design and teach a graduate module on network science and analytics.
+
