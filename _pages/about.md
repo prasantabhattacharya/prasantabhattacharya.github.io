@@ -11,9 +11,9 @@ redirect_from:
 Thank you for visiting my personal webpage.
 
 
-I am currently a Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), one of the flagship interdisciplinary research institutes at [A*STAR](https://www.a-star.edu.sg/), a leading science, tech and research organisation in Singapore. 
+I am currently a Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), one of the flagship interdisciplinary research institutes at [A*STAR](https://www.a-star.edu.sg/), a leading science, tech and research organisation in Singapore. As of Jan 2019, I have a second appointment as an Adjunct Assistant Professor at the [NUS Business School](https://bschool.nus.edu.sg/) ([Dept. of Analytics and Operations](https://bschool.nus.edu.sg/analytics-operations)) to design and teach a graduate module on network science and analytics.
 
-My work here primarily draws on three research directions:
+My current research primarily draws on three broad areas:
 
 i. Analyzing user behavior on large social networks using fine-grained observational data, and understanding the interplay between network and user behavior in a variety of sectors spanning finance, healthcare, education and urban systems. (Skim through [this](https://economics.mit.edu/files/7781) and [this](https://www.nature.com/articles/ncomms14753) for two very interesting examples)
 
