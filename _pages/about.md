@@ -11,7 +11,7 @@ redirect_from:
 Thank you for visiting my personal webpage.
 
 
-I am currently a Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), one of the flagship interdisciplinary research institutes at [A*STAR](https://www.a-star.edu.sg/), a leading science, tech and research organisation in Singapore. As of Jan 2019, I have a second appointment as an Adjunct Assistant Professor at the [NUS Business School](https://bschool.nus.edu.sg/) ([Dept. of Analytics and Operations](https://bschool.nus.edu.sg/analytics-operations)) where I am designing and teaching a new graduate module on network science and analytics.
+I am currently a Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), one of the flagship interdisciplinary research institutes at [A*STAR](https://www.a-star.edu.sg/), a leading science, tech and research organisation in Singapore. As of Jan 2019, I have a second appointment as an Adjunct Assistant Professor at the [NUS Business School](https://bschool.nus.edu.sg/) ([Dept. of Analytics and Operations](https://bschool.nus.edu.sg/analytics-operations)) where I will be designing and teaching a new graduate module on network science and analytics.
 
 My current research primarily draws on three broad areas:
 
@@ -25,5 +25,4 @@ I have over 6 years of academic and industry experience in solving complex socia
 
 Think there's something we can chat about? Drop me an [e-mail](mailto:prasanta.nus@gmail.com). 
 
-_UPDATE_: As of Jan 2019, I will be joining the Dept. of Analytics and Operations (NUS Business School) as an Adjunct Assistant Professor to design and teach a graduate module on network science and analytics.
 
