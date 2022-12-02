@@ -8,7 +8,7 @@ This collection of projects, made possible through industry collaborations and d
 
 Relevant projects/papers:
 
-1. (PhD dissertation study) Analyzing the Co-evolution of Network Structure and Content Generation in Online Social Networks, with Tuan Q. Phan, Xue Bai and Edoardo Airoldi. *(published in Information Systems Research, 2019)*
+1. (PhD dissertation study) A Coevolution Model of Network Structure and User Behavior: The Case of Content Generation in Online Social Networks, with Tuan Q. Phan, Xue Bai and Edoardo Airoldi. *(published in Information Systems Research, 2019)*
 2. (PhD dissertation study) Investigating the Impact of New Privacy Controls by Social Network Sites on Users’ Content Generation Behavior. with Tuan Q. Phan and Edoardo Airoldi. *(in preparation)*
 3. (PhD dissertation study) The Profitability of Social Media Brand-Pages: Investigating the Effects of Customer Behavior at Online Social Network Sites on Offline Purchase, with Tuan Q. Phan and Khim Yong Goh. *(in preparation)*
 4. Inferring the Causal Impact of New Track Releases on Music Recommendation Platforms through Counterfactual Predictions, with Rishabh Mehrotra and Mounia Lalmas. *(Presented at RecSys 2020)*
