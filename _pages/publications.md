@@ -7,7 +7,7 @@ author_profile: true
 
 ### Selected Journal Publications:
 1. Bhattacharya, P., Gupta, R.K., and Yang, Y. (2021). Exploring the Contextual Factors Affecting Multimodal Emotion Recognition in Videos (Journal: IEEE Transactions on Affective Computing)
-2. Bhattacharya, P., Phan, T.Q., Bai, X., and Airoldi, E. (2019). Analyzing the Co-evolution of Network Structure and Content Generation in Online Social Networks.(Journal: Information Systems Research (ISR))
+2. Bhattacharya, P., Phan, T.Q., Bai, X., and Airoldi, E. (2019). A Coevolution Model of Network Structure and User Behavior: The Case of Content Generation in Online Social Networks.(Journal: Information Systems Research (ISR))
 
 ### Published Book Chapters:
 3. Thuan,N.H., Dang-Pham,D., Hoanh-Su, L., Bhattacharya,P., and Phan, T.Q. (2022). Introduction to Information Systems Research in Vietnam: A Shared Vision. (Springer)
