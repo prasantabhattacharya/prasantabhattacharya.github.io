@@ -9,7 +9,7 @@ author_profile: true
 1. Bhattacharya, P., Gupta, R.K., and Yang, Y. (2021). Exploring the Contextual Factors Affecting Multimodal Emotion Recognition in Videos (Journal: IEEE Transactions on Affective Computing)
 2. Bhattacharya, P., Phan, T.Q., Bai, X., and Airoldi, E. (2019). Analyzing the Co-evolution of Network Structure and Content Generation in Online Social Networks.(Journal: Information Systems Research (ISR))
 
-### Upcoming Book Chapters:
+### Published Book Chapters:
 3. Thuan,N.H., Dang-Pham,D., Hoanh-Su, L., Bhattacharya,P., and Phan, T.Q. (2022). Introduction to Information Systems Research in Vietnam: A Shared Vision. (Springer)
 4. Bhattacharya,P., Wan, K.S., Quek, B.K., Hameed, W.B., and Rathanathan, S. (2022). A Data-informed Approach to Financial Literacy Enhancement using Cognitive & Behavioral Analytics. (Palgrave Macmillan)
 
@@ -23,15 +23,15 @@ author_profile: true
 11. Dunn, J.G., Bhattacharya, P., and Mahmood, I.P. (2020). Characterizing the Evolution of Innovation Networks in Post-Soviet Transition Economies.
 12. Bhattacharya, P., Tan, T., and Phan, T.Q. Assessing Peer-effects from Egocentric Borrower Networks: Evidence from an Emerging Micro-lending Community.
 
-### Selected Conference Publications:
+### Selected Conference/Workshop Publications:
 13. Shan, D., Bhattacharya, P., Kao, B., and Phan, T.Q. (2021). Characterizing Amateur Tutoring Behavior on a Large Online Learning Platform. In Proc. of Eighth ACM Conference on Learning@ Scale (L@S), pp. 239-242, Worldwide.
 14. Mehrotra, R., Bhattacharya, P., and Lalmas-Roelleke, M. Inferring the Causal Impact of New Track Releases through Counterfactual Predictions. In Proc. of
 14th ACM Conference on Recommender Systems (RecSys 2020),Worldwide.
 15. Ding, D., Bhattacharya, P., and Phan, T.Q. (2019). A Tale of Two Networks: Characterizing the Interplay between Online and Oine Communication Networks. In Proc. of 40th International Conference on Information Systems (ICIS 2019), Munich (Germany).
 16. Gupta, R.K., Bhattacharya, P., Yang, Y. (2019). What Constitutes Happiness? Predicting and Characterizing the Ingredients of Happiness using Emotion Intensity Analysis. In Proc. of the 2nd Workshop on Affective Content Analysis @ AAAI (AffCon2019), Honolulu (Hawaii).
-17. Ding, D., Phan, T.Q., Bhattacharya, P., and Lu, X. (2018). The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. In Proc. of 39th International Conference on Information Systems (ICIS 2018), San Francisco (USA). 
-18. Bhattacharya, P., Tan, T., and Phan, T.Q. (2018). Assessing Peer-effects from Egocentric Borrower Networks: Evidence from an Emerging Micro-lending Community.In 14th Symposium on Statistical Challenges in e-Commerce Research (SCECR 2018), Rotterdam.
-19. Ding, D., Phan, T.Q., Bhattacharya, P., and Lu, X. (2018) The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. In 14th Symposium on Statistical Challenges in e-Commerce Research (SCECR 2018), Rotterdam.
+17. Ding, D., Phan, T.Q., Bhattacharya, P., and Lu, X. (2018). The Impact of Peer Influence on Academic Performance: A Three-Stage Co-Evolution Model. In Proc. of 39th International Conference on Information Systems (ICIS 2018), San Francisco (USA). 
+18. Ding, D., Phan, T.Q., Bhattacharya, P., and Lu, X. (2018) The Effect of Online Collaborative Peer Influence on Academic Performance: A Three-Stage Co-evolution model of Social Network and Individual Behavior. In 14th Symposium on Statistical Challenges in e-Commerce Research (SCECR 2018), Rotterdam.
+19. Bhattacharya, P., Tan, T., and Phan, T.Q. (2018). Assessing Peer-effects from Egocentric Borrower Networks: Evidence from an Emerging Micro-lending Community.In 14th Symposium on Statistical Challenges in e-Commerce Research (SCECR 2018), Rotterdam.
 20. Mehrotra, R., Bhattacharya, P., Tan, T., and Phan, T.Q. (2017). Predictive Power of Online and Offline Behavior Sequences: Evidence from a Micro-finance Context. In Proc. of 38th International Conference on Information Systems (ICIS 2017), Seoul (South Korea).
 21. Lu, X., Rivas, A.G., Bhattacharya, P., and Phan, T.Q. (2017). A Paypal for the Un-Banked: Analyzing Mobile-Based Micro-Cash Transfers in a Large Developing Economy. In Proc. of 38th International Conference on Information Systems (ICIS 2017), Seoul (South Korea).
 22. Lin, Q., Bhattacharya, P., and Phan, T.Q. (2017). Battling Diabetes through Food Photography: An Image-based Utility Maximization Framework for Diet Diagnostics. In Proc. of 38th International Conference on Information Systems (ICIS 2017), Seoul (South Korea).
