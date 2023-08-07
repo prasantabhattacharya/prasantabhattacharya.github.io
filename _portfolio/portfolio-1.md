@@ -1,5 +1,5 @@
 ---
-title: "Social Media Analytics & Value Creation, "
+title: "Social Media Analytics & Value Creation"
 excerpt: "Causal inference and predictive modeling of user behavior on digital platforms<br/><img src='/images/social_media_roi.png'><br/><sup><sub>(Image Source: https://www.brandwatch.com/blog/10-ways-to-prove-the-value-roi-of-social-media-monitoring/)</sub></sup>"
 collection: portfolio
 ---
