@@ -11,7 +11,7 @@ redirect_from:
 Thank you for visiting my personal webpage.
 
 
-I am currently Innovation Lead & Senior Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), a flagship interdisciplinary research institute of [A*STAR](https://www.a-star.edu.sg/), which is a leading science, tech and research organisation in Singapore. I also serve as an Adjunct Assistant Professor with the [NUS Business School](https://bschool.nus.edu.sg/) ([Dept. of Analytics and Operations](https://bschool.nus.edu.sg/analytics-operations)) where I have designed a number of graduate and executive-level courses on AI, business analytics, and network science. 
+I am currently an Innovation Lead & Senior Research Scientist with the Social and Cognitive Computing Department at the Institute of High Performance Computing (IHPC), a flagship interdisciplinary research institute of [A*STAR](https://www.a-star.edu.sg/), which is a leading science, tech and research organisation in Singapore. I also serve as an Adjunct Assistant Professor with the [NUS Business School](https://bschool.nus.edu.sg/) ([Dept. of Analytics and Operations](https://bschool.nus.edu.sg/analytics-operations)) where I have designed a number of graduate and executive-level courses on AI, business analytics, and network science. 
 
 My research bridges topics and methods from network science, behavioral analytics, and psychometric modeling to relevant AI applications in emerging markets. The following are some examples of problems that I am particularly interested in:
 
