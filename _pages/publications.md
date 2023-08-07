@@ -25,7 +25,7 @@ author_profile: true
 ### Latest Conference/Workshop Presentations:
 12. Ang, E., Bhattacharya, P., and Lim, A. (2023). Estimating Policy Effects in a Social Network with Independent Set Sampling. Sunbelt 2023.
 13. Shan, D., Bhattacharya, P., Kao, B., and Phan, T.Q. (2021). Characterizing Amateur Tutoring Behavior on a Large Online Learning Platform. In Proc. of Eighth ACM Conference on Learning@ Scale (L@S), pp. 239-242, Worldwide.
-14. 12. Belik, I., Bhattacharya, P., and Knudsen, E.S. (2021). The Red or the Blue Pill? A Case for Simulated Data in Organizational Network Research. Strategic Management Society (SMS) 41st Annual Conference.
+14. Belik, I., Bhattacharya, P., and Knudsen, E.S. (2021). The Red or the Blue Pill? A Case for Simulated Data in Organizational Network Research. Strategic Management Society (SMS) 41st Annual Conference.
 15. Mehrotra, R., Bhattacharya, P., and Lalmas-Roelleke, M. Inferring the Causal Impact of New Track Releases through Counterfactual Predictions. In Proc. of
 14th ACM Conference on Recommender Systems (RecSys 2020),Worldwide.
 16. Ding, D., Bhattacharya, P., and Phan, T.Q. (2019). A Tale of Two Networks: Characterizing the Interplay between Online and Oine Communication Networks. In Proc. of 40th International Conference on Information Systems (ICIS 2019), Munich (Germany).
