@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Under Maintenance</title>
+  <meta name="robots" content="noindex">
+  <style>
+    :root{--bg:#0b0d12;--ink:#e8ecf1;--muted:#aab2bd;--acc:#7bb2ff}
+    @media (prefers-color-scheme: light){:root{--bg:#ffffff;--ink:#0e1a27;--muted:#6b7785;--acc:#0a6ad6}}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,Arial,sans-serif;display:grid;place-items:center;padding:24px}
+    .card{max-width:720px;width:100%;border:1px solid rgba(128,128,128,.25);border-radius:16px;padding:28px;background:rgba(255,255,255,.02)}
+    .wrap{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+    .msg h1{margin:.2em 0 .2em;font-size:1.8rem}
+    .msg p{margin:.35em 0;color:var(--muted)}
+    .small{font-size:.95rem;color:var(--muted)}
+    svg{display:block;width:220px;height:auto;flex:0 0 220px}
+    .cta{margin-top:10px}
+    .cta a{color:var(--acc);text-decoration:none}
+    .cta a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <div class="card" role="status" aria-live="polite">
+    <div class="wrap">
+      <!-- Inline SVG illustration (no external assets needed) -->
+      <svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+            <stop offset="0" stop-color="#7bb2ff" stop-opacity=".85"/>
+            <stop offset="1" stop-color="#70d6ff" stop-opacity=".85"/>
+          </linearGradient>
+        </defs>
+        <rect x="10" y="150" width="300" height="12" rx="6" fill="#2e3440" opacity=".35"/>
+        <g transform="translate(40,20)">
+          <rect x="0" y="0" width="240" height="130" rx="12" fill="#1f242d" opacity=".5"/>
+          <rect x="12" y="16" width="216" height="14" rx="7" fill="#2e3440"/>
+          <rect x="12" y="42" width="160" height="10" rx="5" fill="#2e3440"/>
+          <rect x="12" y="60" width="200" height="10" rx="5" fill="#2e3440"/>
+          <rect x="12" y="78" width="140" height="10" rx="5" fill="#2e3440"/>
+          <g transform="translate(180,22)">
+            <circle cx="20" cy="20" r="20" fill="url(#g)">
+              <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="3.2s" repeatCount="indefinite"/>
+            </circle>
+            <rect x="18" y="2" width="4" height="18" rx="2" fill="#0b0d12"/>
+          </g>
+        </g>
+        <g transform="translate(30,175)">
+          <rect x="0" y="0" width="260" height="8" rx="4" fill="#2e3440"/>
+          <rect x="0" y="0" width="160">
+            <animate attributeName="width" values="40;200;40" dur="2.8s" repeatCount="indefinite"/>
+            <animate attributeName="fill" values="#7bb2ff;#70d6ff;#7bb2ff" dur="2.8s" repeatCount="indefinite"/>
+          </rect>
+        </g>
+      </svg>
+
+      <div class="msg">
+        <h1>Website is currently under maintenance</h1>
+        <p>I'm polishing a few things. Please check back soon.</p>
+        <p class="small">If you’re looking for me in the meantime, you can reach me via LinkedIn below.</p>
+        <div class="cta small">
+        <a href="https://www.linkedin.com/in/prasantabhattacharya/" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
