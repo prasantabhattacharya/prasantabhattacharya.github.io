@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prasanta Bhattacharya — Academic Profile</title>
+  <meta name="description" content="Applied research scientist & innovation leader in AI, behavioral science, and network analytics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:      #f7f5f1;
+      --surface: #faf9f6;
+      --ink:     #1a1714;
+      --muted:   #7a7068;
+      --rule:    #e3dfd6;
+      --acc:     #7c4a1e;
+      --max:     700px;
+      --serif:   'Crimson Pro', Georgia, serif;
+      --sans:    'DM Sans', system-ui, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg:      #141210;
+        --surface: #1b1916;
+        --ink:     #ece8e0;
+        --muted:   #9a9088;
+        --rule:    #2c2824;
+        --acc:     #c9895a;
+      }
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 18.5px;
+      line-height: 1.78;
+    }
+
+    /* ── Progress bar ── */
+    .progress {
+      position: fixed; top: 0; left: 0;
+      height: 2px; width: 0%;
+      background: var(--acc);
+      z-index: 999;
+      transition: width .08s linear;
+    }
+
+    /* ── Header ── */
+    header {
+      position: sticky; top: 0;
+      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--rule);
+      z-index: 100;
+      padding: 0 28px;
+    }
+
+    .header-inner {
+      max-width: var(--max);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 50px;
+      gap: 16px;
+    }
+
+    .header-name {
+      font-family: var(--sans);
+      font-size: .82rem;
+      font-weight: 500;
+      letter-spacing: .04em;
+      color: var(--ink);
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    nav {
+      display: flex;
+      gap: 2px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    nav a {
+      font-family: var(--sans);
+      font-size: .76rem;
+      font-weight: 400;
+      color: var(--muted);
+      text-decoration: none;
+      padding: 4px 9px;
+      border-radius: 4px;
+      transition: color .15s, background .15s;
+    }
+
+    nav a:hover, nav a.active {
+      color: var(--ink);
+      background: var(--rule);
+    }
+
+    /* ── Main column ── */
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 28px 100px;
+    }
+
+    /* ── About ── */
+    .about-section {
+      padding: 60px 0 52px;
+    }
+
+    .about-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 36px;
+      margin-bottom: 36px;
+    }
+
+    .about-intro { flex: 1; }
+
+    h1 {
+      font-family: var(--serif);
+      font-size: 2.5rem;
+      font-weight: 300;
+      line-height: 1.12;
+      letter-spacing: -.015em;
+      margin-bottom: 14px;
+    }
+
+    .tagline {
+      font-family: var(--sans);
+      font-size: .78rem;
+      font-weight: 300;
+      line-height: 1.55;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .065em;
+    }
+
+    .profile-photo {
+      width: 108px;
+      height: 108px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: 50% 65%;
+      border: 2px solid var(--rule);
+      flex-shrink: 0;
+    }
+
+    .about-bio p { margin-bottom: 1em; }
+    .about-bio p:last-child { margin-bottom: 0; }
+
+    .about-bio ol,
+    .about-bio ul {
+      padding-left: 1.3em;
+      margin: .75em 0 1em;
+    }
+
+    .about-bio li { margin-bottom: .5em; }
+
+    /* ── Sections ── */
+    .section {
+      padding: 48px 0;
+      border-top: 1px solid var(--rule);
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity .45s ease, transform .45s ease;
+    }
+
+    .section.visible { opacity: 1; transform: none; }
+
+    .section-label {
+      font-family: var(--sans);
+      font-size: .7rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: .11em;
+      color: var(--muted);
+      margin-bottom: 22px;
+    }
+
+    /* ── Highlights ── */
+    .highlights-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+    }
+
+    .highlights-list li {
+      font-size: .97rem;
+      line-height: 1.55;
+      display: grid;
+      grid-template-columns: 12px 1fr;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .highlights-list li::before {
+      content: '—';
+      color: var(--muted);
+      font-size: .8rem;
+    }
+
+    /* ── Projects grid ── */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--rule);
+      border-radius: 6px;
+      padding: 18px 20px;
+    }
+
+    .card-title {
+      font-family: var(--sans);
+      font-size: .84rem;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 6px;
+      line-height: 1.35;
+    }
+
+    .card-desc {
+      font-size: .9rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 8px;
+    }
+
+    .card-links {
+      font-family: var(--sans);
+      font-size: .78rem;
+      line-height: 1.4;
+    }
+
+    /* ── Publications ── */
+    .pub-list {
+      list-style: none;
+      counter-reset: pub;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .pub-list li {
+      counter-increment: pub;
+      display: grid;
+      grid-template-columns: 18px 1fr;
+      gap: 14px;
+      font-size: .97rem;
+      line-height: 1.6;
+      align-items: baseline;
+    }
+
+    .pub-list li::before {
+      content: counter(pub);
+      font-family: var(--sans);
+      font-size: .72rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-align: right;
+      margin-top: 3px;
+    }
+
+    .pub-list em { font-style: italic; }
+
+    .pub-footer {
+      font-family: var(--sans);
+      font-size: .82rem;
+      color: var(--muted);
+      margin-top: 18px;
+    }
+
+    /* ── Prose lists (Teaching, Talks) ── */
+    .prose-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .prose-list li {
+      font-size: .97rem;
+      line-height: 1.62;
+      display: grid;
+      grid-template-columns: 10px 1fr;
+      gap: 10px;
+      align-items: baseline;
+    }
+
+    .prose-list li::before {
+      content: '·';
+      color: var(--muted);
+    }
+
+    .talks-group { margin-bottom: 30px; }
+    .talks-group:last-child { margin-bottom: 0; }
+
+    .talks-subhead {
+      font-family: var(--sans);
+      font-size: .72rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: .09em;
+      color: var(--acc);
+      margin-bottom: 14px;
+    }
+
+    /* ── Contact ── */
+    .contact-block {
+      font-size: .97rem;
+      line-height: 1.8;
+    }
+
+    /* ── Links ── */
+    a { color: var(--acc); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 22px 28px 44px;
+      border-top: 1px solid var(--rule);
+      font-family: var(--sans);
+      font-size: .76rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: space-between;
+    }
+
+    /* ── Mobile ── */
+    @media (max-width: 580px) {
+      body { font-size: 17px; }
+      h1 { font-size: 2rem; }
+      .about-top { flex-direction: column-reverse; gap: 18px; }
+      .profile-photo { width: 84px; height: 84px; }
+      nav a { font-size: .72rem; padding: 3px 7px; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .header-name { font-size: .78rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"></div>
+
+<header>
+  <div class="header-inner">
+    <a href="#about" class="header-name">Prasanta Bhattacharya</a>
+    <nav>
+      <a href="#about" class="active">Home</a>
+      <a href="#highlights">Highlights</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#talks">Talks</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- About -->
+  <section id="about" class="about-section">
+    <div class="about-top">
+      <div class="about-intro">
+        <h1>Prasanta Bhattacharya</h1>
+        <p class="tagline">Innovation Lead &amp; Senior Research Scientist &nbsp;·&nbsp; Behavioral Science, AI &amp; Network Science &nbsp;·&nbsp; Executive Education, Strategy &amp; Decision-making</p>
+      </div>
+      <img class="profile-photo" src="assets/img/avatar.jpg" alt="Profile photo">
+    </div>
+
+    <div class="about-bio">
+      <p>Thank you for visiting my webpage.</p>
+      <p>I am an applied research scientist and innovation lead at A*STAR Singapore, working at the intersection of AI, behavioral science, and network analytics. I design and lead interdisciplinary studies with a strong focus on translating research insights into measurable business impact. I have led multi-year collaborations with internal and external partners, and managed a seven-figure portfolio of funded research initiatives across domains.</p>
+      <p>In addition to my research leadership, I have served as business school faculty, teaching postgraduate students and senior executives across Asia and Europe. I am a Prosci® Certified Change Practitioner, and also trained in contract law and tech transfer matters.</p>
+      <p>My research bridges topics and methods from behavioural science, network science, and machine learning to address challenging problems in emerging markets. The following are examples of topics that I am particularly interested in:</p>
+      <ol>
+        <li>Analyzing user behavior on large and complex social networks using fine-grained observational data, particularly the estimation of network effects across a variety of behavioural contexts spanning economics, climate change, health etc. (Skim through this <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1404770112" target="_blank" rel="noopener">link</a> and this <a href="https://www.nature.com/articles/ncomms14753" target="_blank" rel="noopener">link</a> for two very interesting instances of this line of research).</li>
+        <li>Building computational models of cognition (e.g., attitudes or motivations) and behavior (e.g., stances) using fine-grained data from online platforms, and studying the effectiveness of emerging applications that can benefit from this e.g., designing human-centric AI models.</li>
+        <li>Answering causal inference problems in emerging business contexts using observational time-series data. This is particularly important in the context of impact/intervention evaluation problems where randomized experiments (e.g., A/B tests) are not feasible. See <a href="https://research.google/pubs/inferring-causal-impact-using-bayesian-structural-time-series-models/" target="_blank" rel="noopener">this</a> for a good example of when this is <em>super</em>-important.</li>
+      </ol>
+      <p>I bring over 13 years of experience across academia, industry, and research consulting. I have collaborated with partners from AI, social media, education, and finance sectors. Across these engagements, I have:</p>
+      <ul>
+        <li>Generated actionable business insights on consumer behavior at scale</li>
+        <li>Built analytics frameworks that support strategic decision-making</li>
+        <li>Helped organizations extract measurable value from their data investments</li>
+        <li>Designed and delivered executive training programs in analytics and AI across APAC and Europe</li>
+      </ul>
+      <p>If you see alignment or would like to explore a potential collaboration, feel free to reach out: <a href="mailto:prasanta.nus@gmail.com">e‑mail</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/prasantabhattacharya/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+    </div>
+  </section>
+
+  <!-- Highlights -->
+  <section id="highlights" class="section">
+    <p class="section-label">Recent Highlights</p>
+    <ul class="highlights-list">
+      <li><span>Position paper in ICML 2025 · Sustaining human-generated data in AI training — <a href="https://arxiv.org/abs/2502.07732" target="_blank" rel="noopener">Read more</a></span></li>
+      <li><span>Preprint on LLM-assisted psychometric measurements — <a href="https://arxiv.org/pdf/2405.07447" target="_blank" rel="noopener">Read more</a></span></li>
+      <li><span>Preprint on LLM-enabled qualitative interviewing — <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5194078" target="_blank" rel="noopener">Read more</a></span></li>
+      <li><span>Preprint on LLM-enabled qualitative thematic analysis — <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5167505" target="_blank" rel="noopener">Read more</a></span></li>
+      <li><span>Paper in Social Networks (2025) · Policy evaluation in networked environments — <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378873324000601" target="_blank" rel="noopener">Read more</a></span></li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <p class="section-label">Selected Recent Projects</p>
+    <div class="projects-grid">
+      <div class="card">
+        <p class="card-title">AI-Enabled Qualitative Research</p>
+        <p class="card-desc">LLM-assisted interviewing and theme generation</p>
+        <p class="card-links">Read more here: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5194078" target="_blank" rel="noopener">[link]</a> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5167505" target="_blank" rel="noopener">[link]</a></p>
+      </div>
+      <div class="card">
+        <p class="card-title">AI-Enabled Psychometrics</p>
+        <p class="card-desc">Measuring attitudes and stances from text using LLMs.</p>
+        <p class="card-links">Read more here: <a href="https://arxiv.org/abs/2405.07447" target="_blank" rel="noopener">[link]</a> <a href="https://link.springer.com/chapter/10.1007/978-3-031-78541-2_19" target="_blank" rel="noopener">[link]</a></p>
+      </div>
+      <div class="card">
+        <p class="card-title">Policy Effects On Social Networks</p>
+        <p class="card-desc">Unbiased estimation of policy impact under network interference.</p>
+        <p class="card-links">Read more here: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378873324000601" target="_blank" rel="noopener">[link]</a></p>
+      </div>
+      <div class="card">
+        <p class="card-title">Online Polarization &amp; Misinformation</p>
+        <p class="card-desc">Analyzing how polarization and misinformation manifest on digital platforms</p>
+        <p class="card-links">Read more here: <a href="https://arxiv.org/abs/2504.07610" target="_blank" rel="noopener">[link]</a> <a href="https://files.osf.io/v1/resources/r8fhm/providers/osfstorage/66d53c888c27d4e1e608c63e?action=download&amp;direct&amp;version=1" target="_blank" rel="noopener">[link]</a></p>
+      </div>
+      <div class="card">
+        <p class="card-title">Personalized Sustainable Finance</p>
+        <p class="card-desc">AI-enabled personalization for sustainable finance advisory</p>
+        <p class="card-links">Read more here: <a href="https://link.springer.com/chapter/10.1007/978-3-031-66205-8_4" target="_blank" rel="noopener">[link]</a></p>
+      </div>
+      <div class="card">
+        <p class="card-title">Psychometrics &amp; Financial Behavior</p>
+        <p class="card-desc">Analyzing the link between psychological factors, financial literacy, and financial behaviour</p>
+        <p class="card-links">Read more here: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5383672" target="_blank" rel="noopener">[link]</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section id="publications" class="section">
+    <p class="section-label">Selected Publications</p>
+    <ol class="pub-list">
+      <li><span>Ang, E.T.Y.; Bhattacharya, P.; Lim, A.E.B. (2025). <em>Estimating Policy Effects in a Social Network with Independent Set Sampling.</em> Social Networks. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378873324000601" target="_blank" rel="noopener">Link</a></span></li>
+      <li><span>Santy, S.; Bhattacharya, P.; Ribeiro, M.H.; Allen, K.R.; Oh, S. (2025). <em>Position: When Incentives Backfire, Data Stops Being Human.</em> ICML 2025. <a href="https://openreview.net/forum?id=4UhTWPwVke" target="_blank" rel="noopener">Link</a></span></li>
+      <li><span>Belik, I.; Bhattacharya, P.; Knudsen, E.S. (2024). <em>A Case for Simulated Data and Simulation-based Models in Organizational Network Research.</em> Research Policy. <a href="https://www.sciencedirect.com/science/article/pii/S0048733324001070" target="_blank" rel="noopener">Link</a></span></li>
+      <li><span>Bhattacharya, P.; Gupta, R.K.; Yang, Y. (2021). <em>Exploring the Contextual Factors Affecting Multimodal Emotion Recognition in Videos.</em> IEEE Transactions on Affective Computing. <a href="https://ieeexplore.ieee.org/abstract/document/9397275/" target="_blank" rel="noopener">Link</a></span></li>
+      <li><span>Bhattacharya, P.; Phan, T.Q.; Bai, X.; Airoldi, E. (2019). <em>Analyzing the Coevolution of Network Structure and Content Generation in Online Social Networks.</em> Information Systems Research. <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2018.0790" target="_blank" rel="noopener">Link</a></span></li>
+    </ol>
+    <p class="pub-footer">Complete list and recent preprints on <a href="https://scholar.google.com/citations?user=QgAw1m0AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>.</p>
+  </section>
+
+  <!-- Teaching -->
+  <section id="teaching" class="section">
+    <p class="section-label">Teaching</p>
+    <ul class="prose-list">
+      <li><span>Delivered executive and postgraduate teaching in AI, business analytics, and fintech to globally diverse cohorts across Asia and Europe. Designed and taught an introductory course on network science &amp; analytics for one of Asia's top Master of Science in Business Analytics (MSBA) programme at NUS Business School (2019–2025).</span></li>
+      <li><span>Co‑led the NUS Business School–Emeritus online executive program, Business Analytics for Strategic Decisions, enabling curriculum and executive learning outcomes at scale.</span></li>
+    </ul>
+  </section>
+
+  <!-- Talks -->
+  <section id="talks" class="section">
+    <p class="section-label">Talks</p>
+
+    <div class="talks-group">
+      <p class="talks-subhead">Recent Conferences</p>
+      <ul class="prose-list">
+        <li><span>42nd International Conference on Machine Learning (ICML 2025, Vancouver) — <em>Position paper on sustaining human-generated data for ML</em>. Presented by <a href="https://sebastinsanty.com/" target="_blank" rel="noopener">Sebastin Santy</a></span></li>
+        <li><span>International School and Conference on Network Science (NetSci 2025, Maastricht) — <em>Fragility in Food Supply Chain</em>. Presented by <a href="https://sg.linkedin.com/in/ang-teng-yen-eugene-086683164" target="_blank" rel="noopener">Eugene Ang</a></span></li>
+        <li><span>11th International Conference on Computational Social Science (IC2S2 2025, Norrköping) — <em>Agent-based model of affective polarization</em>. Presented by <a href="https://www.subhayan.com/" target="_blank" rel="noopener">Subhayan Mukerjee</a></span></li>
+        <li><span>16th Asian Conference on the Social Sciences (ACSS 2025, Tokyo) — <em>Are LLMs effective at conducting thematic analysis?</em>. Presented by <a href="https://www.researchgate.net/profile/Aimee-Pink" target="_blank" rel="noopener">Aimee E. Pink</a></span></li>
+      </ul>
+    </div>
+
+    <div class="talks-group">
+      <p class="talks-subhead">Selected Past Talks</p>
+      <ul class="prose-list">
+        <li><span>July 2025 — <em>Evolving Considerations around LLM Use</em>. Summer Institute in Computational Social Science (SICSS), Singapore</span></li>
+        <li><span>June 2024 — <em>Analysing Social Networks: Concepts, Methods and Applications</em>. SICSS, Singapore — <a href="https://www.youtube.com/watch?v=mEhECcKcRfA" target="_blank" rel="noopener">Link</a></span></li>
+        <li><span>Nov 2023 — <em>Masterclass: Innovating with Network Science: Concepts, Methods and Applications</em>. International Conference on Management Research (ICMR 2023), IIT Madras</span></li>
+        <li><span>Aug 2022 — <em>Estimating Social Influence in Online Networks: Challenges, Methods, and Applications</em>. Socioeconomic Networks and Network Science Workshop, Waseda University</span></li>
+        <li><span>Feb 2021 — <em>Emerging Applications of AI &amp; Behavioral Analytics in Financial Services</em>. Monetary Authority of Singapore (MAS) &amp; National Supercomputing Centre (NSCC) — <a href="https://youtu.be/d_3ywCl6ZqY?t=1483" target="_blank" rel="noopener">Link</a></span></li>
+        <li><span>Aug 2017 — <em>Working with Social Network Data: Promises and Pitfalls</em>. PyData SG, Google — <a href="https://www.youtube.com/watch?v=ZbCSuSkGsUo" target="_blank" rel="noopener">Link</a></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <p class="section-label">Contact</p>
+    <div class="contact-block">
+      <p>Email: <a href="mailto:prasanta.nus@gmail.com">prasanta.nus&lt;at&gt;gmail.com</a></p>
+      <p>Profile: <a href="https://www.linkedin.com/in/prasantabhattacharya/" target="_blank" rel="noopener">LinkedIn</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>© <span id="y"></span> Prasanta Bhattacharya · <a href="https://www.linkedin.com/in/prasantabhattacharya/" target="_blank" rel="noopener">LinkedIn</a></span>
+  <span>Site generated with assistance from Microsoft Copilot.</span>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  // Progress bar
+  const bar = document.querySelector('.progress');
+  window.addEventListener('scroll', () => {
+    const dh = document.documentElement.scrollHeight - innerHeight;
+    bar.style.width = ((scrollY / (dh || 1)) * 100) + '%';
+  }, { passive: true });
+
+  // Fade-in sections on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        io.unobserve(e.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -50px 0px' });
+
+  document.querySelectorAll('.section').forEach(el => io.observe(el));
+
+  // Active nav highlight
+  const navLinks = [...document.querySelectorAll('nav a')];
+  const secObs = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const id = e.target.id;
+        navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + id));
+      }
+    });
+  }, { rootMargin: '-38% 0px -57% 0px' });
+
+  ['about','highlights','projects','publications','teaching','talks','contact'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) secObs.observe(el);
+  });
+</script>
+
+</body>
+</html>
